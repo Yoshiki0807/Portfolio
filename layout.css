@@ -120,6 +120,9 @@ max-width: 960px;
 height: auto;
 }
 @media(max-width: 600px) { #main { padding: 0; }
-visibility: hidden;
+
+@media(max-width: 600px) { #sidebar { padding: 0;visibility: hidden; }
+
+
 
 >>>>>>> bd7819d241d356d2bd7a1ce2c70ccca15da6ab21

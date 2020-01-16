@@ -116,7 +116,7 @@ footer p {
 }
 img {
 width: 100%;
-max-width: 450px;
+max-width: 400px;
 height: auto;
 }
 @media(max-width: 600px) { #main { padding: 0; }

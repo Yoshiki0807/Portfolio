@@ -22,8 +22,8 @@ if(line1 > 0 && line2 > 0){
 
 function getInputs() {
   let line1, line2;
-  line1 = document.getElementById("h1").value;
-  line2 = document.getElementById("h2").value;
+  line1 = document.getElementById("ih1").value;
+  line2 = document.getElementById("ih2").value;
   getvalueofline(line1, line2);
   document.getElementById("output").innerText =oneline;
 }

@@ -10,15 +10,12 @@ function getoneline2(line2){
 function getvalueofline(line1, line2){
 if(line1 > 0 && line2 > 0){
   let oneline1 = getoneline1(line1);
-  let oneline2= getoneline2(line2);
-  //let oneline = getTriangleArea(h3*h3);
-  
+  let oneline2= getoneline2(line2);  
   oneline =Math.sqrt(oneline1+oneline2)
 
 }else{
   alert("Please enter positive numbers"); }
 }
-
 
 function getInputs() {
   let line1, line2;
